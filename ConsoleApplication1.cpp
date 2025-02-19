@@ -1,6 +1,9 @@
 ﻿#include "Drob.h"
+// Singleton
 #include "Logger.h"
 
+
+// Factory
 #include "Symbol.h"
 #include "ActionSymbol.h"
 #include "ConditionSymbol.h"
@@ -8,12 +11,14 @@
 #include "FactoryActionSymbol.h"
 #include "FactoryConditionSymbol.h"
 
+// Abstract Factory
 #include "Figure2D.h"
 #include "Reactangle2D.h"
 #include "Ellipse2D.h"
 #include "AbstractFactory2D.h"
 #include "Factory2D.h"
 
+// Builder
 #include "Figure.h"
 #include "Builder.h"
 
